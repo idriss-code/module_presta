@@ -1,0 +1,18 @@
+{
+    "name": "benlamouche/france_travail",
+    "authors": [
+        {
+            "name": "Name Surname",
+            "email": "author@email.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "PrestaShop\\Module\\DemoViewOrderHooks\\": "src/"
+      },
+      "config": {
+        "prepend-autoloader": false
+      },
+      "type": "prestashop-module"
+    }
+}
