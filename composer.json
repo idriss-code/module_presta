@@ -11,7 +11,7 @@
       },
     "autoload": {
         "classmap": [
-            "ps_banner.php"
+            "france_travail.php"
           ]
 
     },
