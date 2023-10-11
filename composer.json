@@ -6,13 +6,14 @@
             "email": "author@email.com"
         }
     ],
-    "autoload": {
-      "psr-4": {
-        "PrestaShop\\Module\\DemoViewOrderHooks\\": "src/"
-      },
-      "config": {
+    "config": {
         "prepend-autoloader": false
       },
-      "type": "prestashop-module"
-    }
+    "autoload": {
+        "classmap": [
+            "ps_banner.php"
+          ]
+
+    },
+    "type": "prestashop-module"
 }
