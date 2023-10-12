@@ -8,12 +8,11 @@
     ],
     "config": {
         "prepend-autoloader": false
-      },
+    },
     "autoload": {
         "classmap": [
             "france_travail.php"
-          ]
-
+        ]
     },
     "type": "prestashop-module"
 }
